@@ -1,8 +1,8 @@
-let elWrap = findEl(".row");
+let elWrap = findEl('.row');
 let i = 0;
 
 posts.forEach(function (post) {
-  let elWrapContent = createEl("div");
+  let elWrapContent = createEl('div');
   i++;
   elWrapContent.innerHTML = `
   <div class="card w-100 mx-auto my-4 js-card p-3">
